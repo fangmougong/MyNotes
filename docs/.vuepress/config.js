@@ -4,6 +4,7 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   base: '/MyNotes/',
+  dest: '.vuepress/dist',
   bundler: viteBundler(),
   theme: defaultTheme({
     navbar: [
