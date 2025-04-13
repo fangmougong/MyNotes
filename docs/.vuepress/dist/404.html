@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.21" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>我永远相信我的父母，就像他们永远相信我一样</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/assets/style-DQl60X9y.css" as="style"><link rel="stylesheet" href="/assets/style-DQl60X9y.css">
+    <link rel="modulepreload" href="/assets/app-8RRVHvib.js"><link rel="modulepreload" href="/assets/404.html-BvCpL1Oa.js">
+    <link rel="prefetch" href="/assets/index.html-DWFxrfSY.js" as="script"><link rel="prefetch" href="/assets/getting-started.html-CWTMpuwR.js" as="script"><link rel="prefetch" href="/assets/index.html-C3Bvg02C.js" as="script"><link rel="prefetch" href="/assets/network.html-BoL6e9_T.js" as="script"><link rel="prefetch" href="/assets/programming.html-BVDQqv7k.js" as="script"><link rel="prefetch" href="/assets/index.html-DajCpaRO.js" as="script"><link rel="prefetch" href="/assets/algebra.html-BuOI0b3d.js" as="script"><link rel="prefetch" href="/assets/geometry.html-LE9XCn3k.js" as="script"><link rel="prefetch" href="/assets/index.html-EQA5meZE.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-8RRVHvib.js" defer></script>
+  </body>
+</html>

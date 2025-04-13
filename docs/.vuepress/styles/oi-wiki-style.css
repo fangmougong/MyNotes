@@ -1,0 +1,36 @@
+:root {
+  --sidebar-width: 280px;
+  --content-width: 800px;
+  --right-sidebar-width: 220px;
+}
+
+.theme-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+  border-right: 1px solid #eaecef;
+}
+
+.page {
+  margin-left: var(--sidebar-width);
+  margin-right: var(--right-sidebar-width);
+  width: var(--content-width);
+}
+
+.outline {
+  width: var(--right-sidebar-width);
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-left: 1px solid #eaecef;
+}
